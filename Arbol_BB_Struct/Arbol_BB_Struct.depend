@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1591768870 source:c:\users\carlos\desktop\estructuras de datos en c++, joyanes\arbol_bb_struct\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+

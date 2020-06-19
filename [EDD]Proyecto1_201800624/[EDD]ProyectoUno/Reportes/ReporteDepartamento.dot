@@ -1,0 +1,15 @@
+digraph ReporteDepartamento{node[shape=plaintext]
+INIT[label="Reporte Activos Departamtento"];
+node[shape=circle, style=filled, fillcolor=red];
+w0[label=car123];
+node[style=filled, fillcolor=skyblue];
+X_11[shape=record label="1|{8A6B9C8d5e8F8G2|a|a}|"];
+node[style=filled, fillcolor=skyblue];
+X_10[shape=record label="0|{2A1B1C6d8e2F8G1|Activo Uno|Activo Uno des}|"];
+node[style=filled, fillcolor=blue];
+X_13[shape=record label="3|{8X1Z3I9O8e8U1W6|Activo Dos|Activo Dos Des}|"];
+
+X_11->X_10;
+X_11->X_13;
+w0->X_11;
+}

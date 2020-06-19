@@ -1,0 +1,8 @@
+digraph ReporteTransaccion{rankdir=LR
+X0[shape=record label="8A6B9C8d5e8F8G2_18/06/2020|{b|b|b}|_8X1Z3I9O8e8U1W65"];
+X1[shape=record label="9A6B8C2d7e7F4G4_19/06/2020|{b|b|b}|_8X1Z3I9O8e8U1W60"];
+X0->X1;
+X1->X0;
+X1->X0;
+X0->X1;
+}

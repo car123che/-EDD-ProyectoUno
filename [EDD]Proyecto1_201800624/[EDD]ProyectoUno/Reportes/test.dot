@@ -1,0 +1,23 @@
+digraph MatrizDispersa{node[shape=box]
+INIT[label="Emp/Dep", width = 1.5, style = filled, fillcolor=yellow, group=1];
+y0[label = Maxi width=1.5 style = filled, fillcolor=green, group=1];
+y1[label = b width=1.5 style = filled, fillcolor=green, group=1];
+INIT->y0[dir=both];
+y0 -> y1[dir=both];
+x0[label = Guatemala width=1.5 style=filled, fillcolor=skyblue, group=2];
+x1[label = b width=1.5 style=filled, fillcolor=skyblue, group=3];
+INIT->x0[dir=both];
+{rank=same;INIT;x0;x1}x0 -> x1[dir=both];
+
+node[shape = box3d]
+x0_y0[label=car123 width=1.5, group=0];
+
+node[shape = box]
+x1_y1[label=b width=1.5, group=1];
+y0->x0_y0[dir=both];
+{rank = same; y0; x0_y0; }
+y1->x1_y1[dir=both];
+{rank = same; y1; x1_y1; }
+x0->x0_y0[dir=both];
+x1->x1_y1[dir=both];
+}
